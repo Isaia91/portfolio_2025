@@ -1,7 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import projects from '../data/projects.json';
 import infiniteDestroy from '../assets/img/background/infiniteDestroy.svg';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -42,7 +41,18 @@ const ProjectCard = ({ project }) => {
 
 export default function Projects() {
     const [index, setIndex] = useState(0);
-    const visibleCount = 4;
+    const [visibleCount, setVisibleCount] = useState(getVisibleCount());
+
+    function getVisibleCount() {
+        if (typeof window !== 'undefined' && window.innerWidth < 768) return 1;
+        return 4;
+    }
+
+    useEffect(() => {
+        const handleResize = () => setVisibleCount(getVisibleCount());
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const next = () => setIndex((prev) => (prev + 1) % projects.length);
     const prev = () => setIndex((prev) => (prev - 1 + projects.length) % projects.length);
@@ -62,7 +72,6 @@ export default function Projects() {
                 <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">Projets</h2>
 
                 <div className="relative flex items-center justify-center">
-                    {/* Bouton précédent */}
                     <button
                         onClick={prev}
                         className="absolute left-0 z-20 text-white bg-white/10 hover:bg-white/20 p-3 rounded-full"
@@ -78,7 +87,6 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    {/* Bouton suivant */}
                     <button
                         onClick={next}
                         className="absolute right-0 z-20 text-white bg-white/10 hover:bg-white/20 p-3 rounded-full"
