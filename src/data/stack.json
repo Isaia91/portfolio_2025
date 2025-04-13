@@ -1,0 +1,203 @@
+[
+  {
+    "title": "HTML5",
+    "subtitle": "Front-end",
+    "rating": "★★★★",
+    "image": "/img/logos/html5.svg",
+    "backgroundColors": {
+      "top": "#ff5722",
+      "bottom": "#bf360c"
+    }
+  },
+  {
+    "title": "JavaScript",
+    "subtitle": "Front-end",
+    "rating": "★★★★★",
+    "image": "/img/logos/javascript.svg",
+    "backgroundColors": {
+      "top": "#f7df1e",
+      "bottom": "#bba707"
+    }
+  },
+  {
+    "title": "Python",
+    "subtitle": "Back-end",
+    "rating": "★★★★★",
+    "image": "/img/logos/python.svg",
+    "backgroundColors": {
+      "top": "#306998",
+      "bottom": "#224d6b"
+    }
+  },
+  {
+    "title": "Flask",
+    "subtitle": "Back-end",
+    "rating": "★★★★",
+    "image": "/img/logos/flask.svg",
+    "backgroundColors": {
+      "top": "#212121",
+      "bottom": "#000000"
+    }
+  },
+  {
+    "title": "SQL",
+    "subtitle": "Base de données",
+    "rating": "★★★★",
+    "image": "/img/logos/sql.svg",
+    "backgroundColors": {
+      "top": "#00758f",
+      "bottom": "#00495d"
+    }
+  },
+  {
+    "title": "Angular",
+    "subtitle": "Front-end",
+    "rating": "★★★",
+    "image": "/img/logos/angular.svg",
+    "backgroundColors": {
+      "top": "#dd0031",
+      "bottom": "#a3001f"
+    }
+  },
+  {
+    "title": "Apache Kafka",
+    "subtitle": "Streaming",
+    "rating": "★",
+    "image": "/img/logos/kafka.svg",
+    "backgroundColors": {
+      "top": "#282828",
+      "bottom": "#121212"
+    }
+  },
+  {
+    "title": "PHP",
+    "subtitle": "Back-end",
+    "rating": "★★★",
+    "image": "/img/logos/php.svg",
+    "backgroundColors": {
+      "top": "#8892be",
+      "bottom": "#5e6caa"
+    }
+  },
+  {
+    "title": "Docker",
+    "subtitle": "Outils DevOps",
+    "rating": "★",
+    "image": "/img/logos/docker.svg",
+    "backgroundColors": {
+      "top": "#0db7ed",
+      "bottom": "#097eae"
+    }
+  },
+  {
+    "title": "Symfony",
+    "subtitle": "Back-end",
+    "rating": "★★",
+    "image": "/img/logos/symfony.svg",
+    "backgroundColors": {
+      "top": "#1e1e1e",
+      "bottom": "#000000"
+    }
+  },
+  {
+    "title": "React",
+    "subtitle": "Front-end",
+    "rating": "★★★",
+    "image": "/img/logos/react.svg",
+    "backgroundColors": {
+      "top": "#61dafb",
+      "bottom": "#2d9ecf"
+    }
+  },
+  {
+    "title": "API",
+    "subtitle": "Architecture",
+    "rating": "★★",
+    "image": "/img/logos/api.svg",
+    "backgroundColors": {
+      "top": "#37474f",
+      "bottom": "#263238"
+    }
+  },
+  {
+    "title": "MVC",
+    "subtitle": "Architecture",
+    "rating": "★★",
+    "image": "/img/logos/mvc.svg",
+    "backgroundColors": {
+      "top": "#37474f",
+      "bottom": "#263238"
+    }
+  },
+  {
+    "title": "CSS",
+    "subtitle": "Front-end",
+    "rating": "★★★",
+    "image": "/img/logos/css3.svg",
+    "backgroundColors": {
+      "top": "#264de4",
+      "bottom": "#1b3a94"
+    }
+  },
+  {
+    "title": "Bootstrap",
+    "subtitle": "Front-end",
+    "rating": "★★★★",
+    "image": "/img/logos/bootstrap.svg",
+    "backgroundColors": {
+      "top": "#7952b3",
+      "bottom": "#563d7c"
+    }
+  },
+  {
+    "title": "Tailwind CSS",
+    "subtitle": "Front-end",
+    "rating": "★★",
+    "image": "/img/logos/tailwind.svg",
+    "backgroundColors": {
+      "top": "#38bdf8",
+      "bottom": "#0ea5e9"
+    }
+  },
+  {
+    "title": "Phalcon",
+    "subtitle": "Back-end",
+    "rating": "★★",
+    "image": "/img/logos/phalcon.svg",
+    "backgroundColors": {
+      "top": "#9be5c2",
+      "bottom": "#3ca28c"
+    }
+  },
+  {
+    "title": "PostgreSQL",
+    "subtitle": "Base de données",
+    "rating": "★★",
+    "image": "/img/logos/postgresq.svg",
+    "backgroundColors": {
+      "top": "#336791",
+      "bottom": "#224361"
+    }
+  },
+  {
+    "title": "SQL Server",
+    "subtitle": "Base de données",
+    "rating": "★★",
+    "image": "/img/logos/sqlserver.svg",
+    "backgroundColors": {
+      "top": "#a6192e",
+      "bottom": "#73001f"
+    }
+  },
+  {
+    "title": "MySQL",
+    "subtitle": "Base de données",
+    "rating": "★★",
+    "image": "/img/logos/mysql.svg",
+    "backgroundColors": {
+      "top": "#00758f",
+      "bottom": "#f29111"
+    }
+  }
+
+]

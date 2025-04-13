@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Digitalisation du Laboratoire - KNS",
+    "description": "Développement d’une application Flask pour gérer les échantillons et les intégrer automatiquement dans le LIMS via QR codes.",
+    "techs": ["Flask", "Python", "SQL Server", "Bootstrap", "HTML/CSS", "JavaScript", "IIS"],
+    "image": "/img/projects/labo.png"
+  },
+  {
+    "title": "Monitoring de flux SSIS",
+    "description": "Création d’une interface web pour déclencher manuellement les flux SSIS, visualiser les statuts et recevoir des alertes métiers.",
+    "techs": ["Flask", "Python", "SSIS", "SQL Server", "HTML/CSS", "Bootstrap", "IIS"],
+    "image": "/img/projects/etl.png"
+  },
+  {
+    "title": "Matching formation et zone d'accès",
+    "description": "Script Python connecté aux API internes et à SAP SuccessFactors pour automatiser les accès via le système de badge Gallagher.",
+    "techs": ["Python", "API REST", "JSON", "SAP SuccessFactors", "Postman"],
+    "image": "/img/projects/badgeuse.png"
+  },
+  {
+    "title": "Analyse statistique - Pau",
+    "description": "Projet d’étude sur le terrain : élaboration de questionnaires, collecte de données, traitement et analyse via SPHINX.",
+    "techs": ["SPHINX", "Analyse de données", "Méthodologie d’enquête", "Rédaction de rapport"],
+    "image": "/img/projects/stats.png"
+  },
+  {
+    "title": "Migration SharePoint vers SQL Server",
+    "description": "Script PowerShell pour extraire automatiquement les données SharePoint vers SQL Server, intégration dans des flux SSIS.",
+    "techs": ["PowerShell", "PnP PowerShell", "SharePoint Online", "SQL Server", "SSIS"],
+    "image": "/img/projects/sharepoint.png"
+  },
+  {
+    "title": "Traitement des énergies renouvelables",
+    "description": "Analyse de données issues de l’hydroélectricité et automatisation du traitement à l’aide de scripts Python et JSON.",
+    "techs": ["Python", "JSON", "Analyse de données"],
+    "image": "/img/projects/energies.png"
+  },
+  {
+    "title": "Portfolio interactif 2025",
+    "description": "Création d’un portfolio dynamique avec React et Tailwind, animations fluides et affichage des données via fichiers JSON.",
+    "techs": ["React", "Tailwind CSS", "Vite", "JSON", "Responsive Design"],
+    "image": "/img/projects/portfolio.png"
+  },
+  {
+    "title": "Application Web Flask & Deezer API",
+    "description": "Développement d’une interface Flask pour afficher et convertir des playlists personnalisées en utilisant l’API de Deezer.",
+    "techs": ["Flask", "API Deezer", "Python", "HTML/CSS", "JavaScript"],
+    "image": "/img/projects/deezer.png"
+  },
+  {
+    "title": "Smails : remplacement d’ActiveMQ par Kafka",
+    "description": "Déploiement de Kafka avec Docker pour remplacer ActiveMQ dans une architecture Java Spring Boot distribuée.",
+    "techs": ["Spring Boot", "Java", "Apache Kafka", "Docker"],
+    "image": "/img/projects/kafka.png"
+  },
+  {
+    "title": "Smails : mise à jour Angular",
+    "description": "Refonte front-end sous Angular, migration progressive vers Angular 19 et intégration de nouvelles fonctionnalités avec PrimeNG.",
+    "techs": ["Angular", "TypeScript", "HTML/CSS", "JavaScript", "Bootstrap", "PrimeNG", "Angular Material"],
+    "image": "/img/projects/kafka.png"
+  }
+]

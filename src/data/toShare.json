@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Chaînes YouTube",
+    "items": [
+      {
+        "title": "Indomitus 40k",
+        "description": "Lore, récits narratifs et passion Warhammer 40k. Immersion totale garantie.",
+        "url": "https://www.youtube.com/@indomitus_40k",
+        "image": "/img/share/youtube/indomitus.jpg"
+      },
+      {
+        "title": "Karim Debbache",
+        "description": "Critiques de films avec humour et culture pop (CinéSins, Crossed, Chroma).",
+        "url": "https://www.youtube.com/@KarimDebbache",
+        "image": "/img/share/youtube/karimdebbache.jpg"
+      },
+      {
+        "title": "Coinknard",
+        "description": "Vidéos analyse humour sur les films et series d'animation.",
+        "url": "https://www.youtube.com/@coinknard5047",
+        "image": "/img/share/youtube/coinknard.jpg"
+      },
+      {
+        "title": "Key & Peele",
+        "description": "Sketchs hilarants, satire sociale et humour absurde made in USA. Incontournable.",
+        "url": "https://www.youtube.com/@KeyAndPeele",
+        "image": "/img/share/youtube/keyandpeele.jpg"
+      },
+      {
+        "title": "ALT 236",
+        "description": "Explorations visuelles, symboliques et esthétiques. Du grand art narratif et visuel.",
+        "url": "https://www.youtube.com/@ALT236",
+        "image": "/img/share/youtube/alt236.jpg"
+      }
+
+
+
+    ]
+  },
+  {
+    "category": "Mangas à lire",
+    "items": [
+      {
+        "title": "Hunter x Hunter",
+        "description": "Aventure, stratégie et thriller  dans un monde de Hunters.",
+        "image": "/img/share/manga/hunterxhunter.jpg"
+      },
+      {
+        "title": "Berserk",
+        "description": "Un guerrier maudit dans une quête de vengeance sanglante.",
+        "image": "/img/share/manga/berserk.webp"
+      },
+      {
+        "title": "Gantz",
+        "description": "Survie brutale après la mort dans un jeu mortel.",
+        "image": "/img/share/manga/gantz.jpg"
+      },
+      {
+        "title": "Sun-Ken Rock",
+        "description": "Un chef de gang malgré lui, entre amour et baston.",
+        "image": "/img/share/manga/sunkenrock.webp"
+      },
+      {
+        "title": "Fullmetal Alchemist",
+        "description": "Alchimie, frères liés par un pacte et quête de vérité.",
+        "image": "/img/share/manga/fullmetalalchemist.webp"
+      }
+
+
+    ]
+  },
+  {
+    "category": "Séries à regarder",
+    "items": [
+      {
+        "title": "Mr. Robot",
+        "description": "Hacking, société, thriller psychologique. Un must.",
+        "image": "/img/share/series/mrrobot.jpg"
+      },
+      {
+        "title": "Community",
+        "description": "Un groupe d’étudiants improbables et des épisodes parodiques cultes.",
+        "image": "/img/share/series/community.jpg"
+      },
+      {
+        "title": "Archive 81",
+        "description": "Mystères occultes et cassettes maudites dans une ambiance troublante.",
+        "image": "/img/share/series/archive81.webp"
+      },
+      {
+        "title": "Brooklyn Nine-Nine",
+        "description": "Une brigade loufoque, des enquêtes, et beaucoup de 'cool cool cool'.",
+        "image": "/img/share/series/brooklyn99.jpg"
+      },
+      {
+        "title": "Dirk Gently's Holistic Detective Agency",
+        "description": "Des enquêtes farfelues, du chaos organisé et un détective très spécial.",
+        "image": "/img/share/series/dirkgently.jpg"
+      },
+      {
+        "title": "Parks and Recreation",
+        "description": "Petite ville, grandes ambitions, et un humour ultra feel-good.",
+        "image": "/img/share/series/parksandrecreation.jpg"
+      },
+      {
+        "title": "The Boys",
+        "description": "Des super-héros corrompus, une satire violente et mordante.",
+        "image": "/img/share/series/theboys.jpg"
+      },
+      {
+        "title": "How I Met Your Mother",
+        "description": "Une histoire d’amour, d’amitié, de bars et de légendes.",
+        "image": "/img/share/series/himym.webp"
+      },
+      {
+        "title": "The Wire",
+        "description": "Un portrait brut et intelligent de Baltimore et ses institutions.",
+        "image": "/img/share/series/thewire.jpg"
+      }
+
+    ]
+  },
+  {
+    "category": "Musique",
+    "items": [
+      {
+        "title": "Alpha Wann x Nujabes - ÇA VA ENSEMBLE II (remix)",
+        "description": "Remix jazzy et chill parfait pour se concentrer ou se détendre.",
+        "url": "https://www.youtube.com/watch?v=361GUUBHH5Y",
+        "image": "/img/share/music/alphawann_nujabes.jpg"
+      },
+      {
+        "title": "Swing - N",
+        "description": "Un morceau introspectif et mélodique de Swing, produit par Twenty9 & Eazy Dew.",
+        "url": "https://www.youtube.com/watch?v=pWUPnaSLCFE",
+        "image": "/img/share/music/swing_n.jpg"
+      },
+      {
+        "title": "Népal - Sundance",
+        "description": "Un morceau introspectif de Népal, extrait de son album posthume 'Adios Bahamas'.",
+        "url": "https://www.youtube.com/watch?v=N7K_6MqEAxE",
+        "image": "/img/share/music/nepal_sundance.jpg"
+      },
+      {
+        "title": "Limsa d’Aulnay – Starting Block (feat. ISHA)",
+        "description": "Un duo percutant entre Limsa d’Aulnay et ISHA, extrait de 'LOGIQUE Pt.2'.",
+        "url": "https://www.youtube.com/watch?v=hCFsQw44qT0",
+        "image": "/img/share/music/limsa_startingblock.jpg"
+      },
+      {
+        "title": "Népal – Cheddar",
+        "description": "Un titre percutant de Népal, extrait de sa série d'inédits posthumes.",
+        "url": "https://www.youtube.com/watch?v=hM5xRZM2HBk",
+        "image": "/img/share/music/nepal_cheddar.jpg"
+      }
+
+
+
+
+    ]
+  }
+]
