@@ -1,3 +1,6 @@
+import heroAbout from "../assets/img/hero/hero.jpg";
+
+
 export default function About() {
     return (
         <section id="about" className="bg-[#0f0f0f] text-white py-24 px-6">
@@ -7,7 +10,7 @@ export default function About() {
                 <div className="w-48 h-48 md:w-60 md:h-60 flex-shrink-0 relative">
                     <div className="absolute inset-0 rounded-full bg-[#8531ff] opacity-40 blur-2xl z-0" />
                     <img
-                        src="/src/assets/img/hero/hero.jpg"
+                        src={heroAbout}
                         alt="Isaïa"
                         className="relative z-10 w-full h-full object-cover rounded-full border-4 border-[#00ffd7] shadow-lg"
                     />

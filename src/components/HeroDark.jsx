@@ -1,5 +1,7 @@
 import heroImg from "../assets/img/hero/netero.webp";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import {FaLinkedin, FaGithub, FaEnvelope, FaYoutube} from "react-icons/fa";
+import bgChaos from "../assets/img/background/chaos.svg";
+
 
 export default function HeroDark() {
     return (
@@ -7,7 +9,7 @@ export default function HeroDark() {
             id="home"
             className="w-full min-h-screen bg-cover bg-center flex items-center justify-center px-4"
             style={{
-                backgroundImage: "url('/src/assets/img/background/chaos.svg')",
+                backgroundImage: `url(${bgChaos})`,
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center center',
                 backgroundSize: '1000px',
@@ -33,7 +35,7 @@ export default function HeroDark() {
                         Salut, je suis <span style={{ color: "hsl(270, 73%, 53%)" }}>Isaïa</span>
                     </h1>
                     <h2 className="text-2xl font-semibold" style={{ color: "hsl(162, 100%, 58%)" }}>
-                        Un Développeur full-stack junior
+                        Un Développeur full-stack
                     </h2>
                     <p className="text-gray-300 max-w-md">
                         Passionné de développement web et de projets techniques, je conçois
@@ -43,14 +45,29 @@ export default function HeroDark() {
                     {/* Réseaux sociaux */}
                     <div className="flex gap-4 justify-center md:justify-start text-xl"
                          style={{ color: "hsl(162, 100%, 58%)" }}>
-                        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-                            <FaLinkedin />
-                        </a>
-                        <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <a
+                            href="https://github.com/Isaia91"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#00ffd0] transition-colors"
+                        >
                             <FaGithub />
                         </a>
-                        <a href="mailto:isaia@example.com">
-                            <FaEnvelope />
+                        <a
+                            href="https://www.linkedin.com/in/isa%C3%AFa-maperi-539273238/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-[#7f00ff] transition-colors"
+                        >
+                            <FaLinkedin />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/channel/UCb9vPKzQjAcyt3JRBekK0Dg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-red-500 transition-colors"
+                        >
+                            <FaYoutube />
                         </a>
                     </div>
 
