@@ -4,6 +4,7 @@ import infiniteDestroy from '../assets/img/background/infiniteDestroy.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
+// Gradients aléatoires pour chaque carte
 const gradients = [
     'linear-gradient(315deg, hsl(270, 73%, 53%), hsl(162, 100%, 58%))',
     'linear-gradient(315deg, hsl(162, 100%, 58%), #000000)',
@@ -17,11 +18,15 @@ function getRandomGradient() {
     return gradients[Math.floor(Math.random() * gradients.length)];
 }
 
+const CARD_WIDTH = 280 + 16; // largeur carte + marge
+
 const ProjectCard = ({ project }) => {
     const gradient = getRandomGradient();
 
     return (
-        <div className="relative overflow-hidden rounded-xl p-6 backdrop-blur-md bg-white/5 text-white w-[280px] shrink-0 mx-2">
+        <div
+            className="relative overflow-hidden rounded-xl p-6 backdrop-blur-md bg-white/5 text-white w-[280px] shrink-0 mx-2"
+        >
             <div
                 className="absolute inset-0 z-0"
                 style={{ background: gradient, filter: 'blur(80px)' }}
@@ -54,13 +59,10 @@ export default function Projects() {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    const next = () => setIndex((prev) => (prev + 1) % projects.length);
-    const prev = () => setIndex((prev) => (prev - 1 + projects.length) % projects.length);
+    const maxIndex = Math.max(0, projects.length - visibleCount);
 
-    const visibleProjects = Array.from({ length: visibleCount }, (_, i) => {
-        const projectIndex = (index + i) % projects.length;
-        return projects[projectIndex];
-    });
+    const next = () => setIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
+    const prev = () => setIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
 
     return (
         <section
@@ -72,6 +74,7 @@ export default function Projects() {
                 <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">Projets</h2>
 
                 <div className="relative flex items-center justify-center">
+                    {/* Bouton gauche */}
                     <button
                         onClick={prev}
                         className="absolute left-0 z-20 text-white bg-white/10 hover:bg-white/20 p-3 rounded-full"
@@ -79,14 +82,19 @@ export default function Projects() {
                         <FontAwesomeIcon icon={faChevronLeft} />
                     </button>
 
+                    {/* Carrousel */}
                     <div className="overflow-hidden w-full max-w-6xl">
-                        <div className="flex transition-transform duration-500 ease-in-out">
-                            {visibleProjects.map((project, i) => (
-                                <ProjectCard project={project} key={`${index}-${i}`} />
+                        <div
+                            className="flex transition-transform duration-500 ease-in-out"
+                            style={{ transform: `translateX(-${index * CARD_WIDTH}px)` }}
+                        >
+                            {projects.map((project, i) => (
+                                <ProjectCard project={project} key={i} />
                             ))}
                         </div>
                     </div>
 
+                    {/* Bouton droit */}
                     <button
                         onClick={next}
                         className="absolute right-0 z-20 text-white bg-white/10 hover:bg-white/20 p-3 rounded-full"

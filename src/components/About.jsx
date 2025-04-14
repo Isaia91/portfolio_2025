@@ -1,9 +1,11 @@
 import heroAbout from "../assets/img/hero/hero.jpg";
+import undulate from '../assets/img/background/undulate.svg';
 
 
 export default function About() {
     return (
-        <section id="about" className="bg-[#0f0f0f] text-white py-24 px-6">
+        <section id="about" className="bg-[#0f0f0f] text-white py-24 px-6 bg-no-repeat bg-[length:100%] bg-left"
+                 style={{ backgroundImage: `url(${undulate})` }}>
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
 
                 {/* Image ou Avatar */}
