@@ -22,24 +22,26 @@ export default function About() {
                 <div className="text-center md:text-left space-y-6">
                     <h2 className="text-4xl font-bold text-white">A propos de moi</h2>
                     <p>
-                        Durant mes 15 mois d'alternance chez <strong>Koniambo Nickel SAS</strong>, j’ai eu l’opportunité de développer des applications web en lien direct avec les besoins métier.<br />
-                        J’ai principalement travaillé avec <strong>Flask (Python)</strong>, <strong>Bootstrap</strong>, <strong>JavaScript</strong>, ainsi que l’écosystème Microsoft : <strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, et <strong>Azure DevOps</strong> pour la gestion du code.
+                        Lors de mes 18 mois chez <strong>Koniambo Nickel SAS</strong>, j’ai mené le développement d’applications web sur mesure, conçues en étroite collaboration avec les métiers.
+                        Ma stack principal reposait sur <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong>, avec une forte intégration à l’écosystème Microsoft : <strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong> et <strong>Azure DevOps</strong> pour l’industrialisation du code.
                     </p>
                     <br />
                     <p>
-                        J’ai également eu l’occasion de créer quelques <strong>flux SSIS</strong> (SQL Server Integration Services), ce qui m’a permis de découvrir les fondamentaux de l’<strong>ETL</strong> et de la <strong>gestion des données</strong>.
+                        J’ai également mis en place plusieurs <strong>flux SSIS</strong> (SQL Server Integration Services), une expérience qui m’a permis d’appréhender les enjeux de l’<strong>ETL</strong> et de la <strong>gestion de données</strong> dans des contextes industriels exigeants.
                     </p>
                     <br />
                     <p>
-                        Aujourd’hui, je travaille chez <strong>CSB (Calédonienne de Solutions Business)</strong> en tant que <strong>qu'alternant développeur full-stack</strong>, où je contribue à des projets utilisant <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>.
+                        Aujourd’hui, j’évolue chez <strong>CSB (Calédonienne de Solutions Business)</strong> en tant que <strong>développeur full-stack</strong> en alternance.
+                        J’interviens sur des projets stratégiques basés sur des technologies telles que <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>.
                     </p>
                     <br />
                     <p>
-                        Curieux et pragmatique, j’aime développer des solutions utiles, fonctionnelles, et bien intégrées dans leur environnement métier.
+                        À la croisée des besoins métiers et des enjeux techniques, je conçois des solutions fiables, performantes et adaptées à leur environnement.
+                        Curieux et pragmatique, j’accorde une attention particulière à la qualité du code, à l’ergonomie des interfaces et à l’intégration des outils dans les processus existants.
                     </p>
 
                     <p className="text-gray-400 text-sm italic">
-                        Technologies préférées : React, Flask, SQL, Python — et j'adore apprendre !
+                        Technologies que j’affectionne particulièrement : React, Flask, SQL, Python — toujours partant pour explorer de nouveaux outils.
                     </p>
 
 
