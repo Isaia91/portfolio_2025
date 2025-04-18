@@ -38,10 +38,10 @@ export default function ContactForm() {
 
     return (
         <div className="max-w-xl mx-auto p-6 bg-white/10 backdrop-blur rounded-2xl shadow-2xl text-white">
-            <h2 className="text-3xl font-bold mb-6 text-center">Contacte-moi</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center">Contactez-moi</h2>
 
             {submitted ? (
-                <p className="text-green-400 text-center">Merci pour ton message !</p>
+                <p className="text-green-400 text-center">Merci pour votre message !</p>
             ) : (
                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
                     <input
