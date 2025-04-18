@@ -65,7 +65,7 @@ export default function ContactForm() {
                     <textarea
                         name="message"
                         rows="4"
-                        placeholder="Ton message"
+                        placeholder="Votre message"
                         value={form.message}
                         onChange={handleChange}
                         className="w-full p-3 rounded bg-white/20 placeholder-white/60 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
