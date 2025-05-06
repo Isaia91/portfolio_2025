@@ -1,7 +1,7 @@
 [
   {
     "title": "Digitalisation du Laboratoire - KNS",
-    "description": "Développement d’une application Flask pour gérer les échantillons et les intégrer automatiquement dans le LIMS via QR codes.",
+    "description": "Développement d’une application Flask pour gérer les échantillons et les intégrer automatiquement dans le LIMS via des codes barres.",
     "techs": ["Flask", "Python", "SQL Server", "Bootstrap", "HTML/CSS", "JavaScript", "IIS"],
     "image": "/img/projects/labo.png"
   },
