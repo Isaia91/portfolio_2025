@@ -26,6 +26,7 @@ export default function Home() {
 
             {/* Section Stack */}
             <section
+                id="stack"
                 className="text-white py-24 px-6"
                 style={{
                     backgroundColor: '#0f0f0f',

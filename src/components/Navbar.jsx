@@ -15,6 +15,7 @@ export default function Navbar() {
 
                     <nav className="hidden md:flex space-x-6">
                         <a href="#about" className="hover:text-gray-400 transition-colors">A propos</a>
+                        <a href="#stack" className="hover:text-gray-400 transition-colors">Stack</a>
                         <a href="#projects" className="hover:text-gray-400 transition-colors">Projets</a>
                         <a href="#toShare" className="hover:text-gray-400 transition-colors">A découvrir</a>
                         <a href="#contact" className="hover:text-gray-400 transition-colors">Contact</a>
