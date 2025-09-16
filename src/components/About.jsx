@@ -31,7 +31,7 @@ export default function About() {
                     </p>
                     <br />
                     <p>
-                        Aujourd’hui, j’évolue chez <strong>CSB (Calédonienne de Solutions Business)</strong> en tant que <strong>développeur full-stack</strong> en alternance.
+                        Aujourd’hui, j’évolue chez <strong>Calédonienne de Solutions Business (CSB)</strong> en tant que <strong>développeur full-stack</strong>.
                         J’interviens sur des projets stratégiques basés sur des technologies telles que <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>.
                     </p>
                     <br />
