@@ -22,7 +22,7 @@ export default function About() {
                 <div className="text-center md:text-left space-y-6">
                     <h2 className="text-4xl font-bold text-white">A propos de moi</h2>
                     <p>
-                        Durant 2 ans à<strong>Koniambo Nickel SAS</strong>, j’ai mené le développement d’applications web sur mesure, conçues en étroite collaboration avec les métiers.
+                        Durant 2 ans à <strong>Koniambo Nickel SAS</strong>, j’ai mené le développement d’applications web sur mesure, conçues en étroite collaboration avec les métiers.
                         Ma stack principal reposait sur <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong>, avec une forte intégration à l’écosystème Microsoft : <strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong> et <strong>Azure DevOps</strong> pour l’industrialisation du code.
                     </p>
                     <br />
