@@ -22,17 +22,21 @@ export default function About() {
                 <div className="text-center md:text-left space-y-6">
                     <h2 className="text-4xl font-bold text-white">A propos de moi</h2>
                     <p>
-                        Durant 2 ans à <strong>Koniambo Nickel SAS</strong>, j’ai mené le développement d’applications web sur mesure, conçues en étroite collaboration avec les métiers.
-                        Ma stack principal reposait sur <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong>, avec une forte intégration à l’écosystème Microsoft : <strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong> et <strong>Azure DevOps</strong> pour l’industrialisation du code.
+                        Durant mes premières expériences chez <strong>Koniambo Nickel SAS</strong> puis 
+                        <strong> Calédonienne de Solutions Business (CSB)</strong>, j’ai développé des applications web sur mesure en collaboration étroite avec les équipes métiers.
+                    
+                        J’ai travaillé sur des stacks variées allant de <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong> 
+                        jusqu’à des architectures plus modernes basées sur <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>, 
+                        avec une forte intégration à l’écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>).
+                    
+                        J’ai également conçu plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
+                        <strong>ETL</strong> et de <strong>gestion de données</strong> dans des environnements exigeants.
                     </p>
-                    <br />
+                    
                     <p>
-                        J’ai également mis en place plusieurs <strong>flux SSIS</strong> (SQL Server Integration Services), une expérience qui m’a permis d’appréhender les enjeux de l’<strong>ETL</strong> et de la <strong>gestion de données</strong> dans des contextes industriels exigeants.
-                    </p>
-                    <br />
-                    <p>
-                        Aujourd’hui, j’évolue chez <strong>Calédonienne de Solutions Business (CSB)</strong> en tant que <strong>développeur full-stack</strong>.
-                        J’interviens sur des projets stratégiques basés sur des technologies telles que <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>.
+                        Aujourd’hui, je suis <strong>développeur full-stack</strong> à la <strong>Clinique Kuindo-Magnin</strong>.
+                        J’y développe et maintiens des applications métiers avec une stack basée sur 
+                        <strong> Laravel</strong>, <strong>Angular</strong> et <strong>Docker</strong>.
                     </p>
                     <br />
                     <p>
