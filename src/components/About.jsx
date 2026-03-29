@@ -27,15 +27,15 @@ export default function About() {
                     
                         J’ai travaillé sur des stacks variées allant de <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong> 
                          jusqu’à des architectures plus modernes basées sur <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>, 
-                        avec une intégration dans écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>) ou bien <strong>Linux</strong>
+                        avec une intégration dans écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>) ou bien <strong>Linux</strong>.</br>
                     
-                        J’ai également conçu plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
+                        J’ai également pi cpncevoir plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
                         <strong>ETL</strong> et de <strong>gestion de données</strong> dans des environnements exigeants.
                     </p>
                     
                     <p>
                         Aujourd’hui, je suis <strong>développeur full-stack</strong> à la <strong>Clinique Kuindo-Magnin</strong>.
-                        J’y développe et maintiens des applications métiers avec une stack basée sur 
+                        J’y développe et maintiens des applications métiers médicales avec une stack basée sur 
                         <strong> Laravel</strong>, <strong>Angular</strong> et <strong>Docker</strong>.
                     </p>
                     <br />
