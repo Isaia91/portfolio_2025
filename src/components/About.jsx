@@ -26,8 +26,8 @@ export default function About() {
                         <strong> Calédonienne de Solutions Business (CSB)</strong>, j’ai développé des applications web sur mesure en collaboration étroite avec les équipes métiers.
                     
                         J’ai travaillé sur des stacks variées allant de <strong>Flask (Python)</strong>, <strong>Bootstrap</strong> et <strong>JavaScript</strong> 
-                        jusqu’à des architectures plus modernes basées sur <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>, 
-                        avec une forte intégration à l’écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>).
+                         jusqu’à des architectures plus modernes basées sur <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>, 
+                        avec une intégration dans écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>) ou bien <strong>Linux</strong>
                     
                         J’ai également conçu plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
                         <strong>ETL</strong> et de <strong>gestion de données</strong> dans des environnements exigeants.
