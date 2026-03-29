@@ -29,7 +29,7 @@ export default function About() {
                          jusqu’à des architectures plus modernes basées sur <strong>Angular</strong>, <strong>Spring Boot</strong>, <strong>Kafka</strong> et <strong>Docker</strong>, 
                         avec une intégration dans écosystème Microsoft (<strong>SharePoint Online</strong>, <strong>Power Automate</strong>, <strong>Power Apps</strong>, <strong>Azure DevOps</strong>) ou bien <strong>Linux</strong>.</br>
                     
-                        J’ai également pi cpncevoir plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
+                        J’ai également pu concevoir plusieurs <strong>flux SSIS</strong>, me permettant de travailler sur des problématiques d’
                         <strong>ETL</strong> et de <strong>gestion de données</strong> dans des environnements exigeants.
                     </p>
                     
